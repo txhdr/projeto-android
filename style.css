@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'idroid';
+    src: url('fontes/idroid.otf');
+    format:'opentype';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*___*/
+
+body{
+    background-color: #84E1AD;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, #2ea764, #134a2c);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);}
+header > h1{
+    margin: auto;
+    color: white;
+    text-align: center;}
+header > p {
+    color: white;
+    text-align: center;
+    padding: 7px;}
+nav{
+    padding: 3px;}
+nav > a{
+
+    color: white;
+    text-decoration: none;
+    margin: 7px;}
+nav > a:hover{color: rgb(200, 255, 0);}
+
+main > section#parte1{
+    height: auto;
+    width: 800px;
+    background-color: rgb(255, 244, 244);
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px auto;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);}
+main > section#parte1 > h1{
+    font-family: 'idroid', sans-serif;
+    color: #0d840d;}
+
+main > section#parte1 > h2 {
+    font-family: 'idroid',sans-serif;
+    color: #0d840d;
+    background-image: linear-gradient(to right, #9fe69fb6, #ffffff00 93%);
+    text-align: justify;
+}
+main > section#parte1 > p {text-align: justify;}
+main > section#parte1> p > a {
+    text-decoration: none;
+    color: #398b03;
+}
+main > section#parte1 > p > a:hover{ color: #da1deb;}
+
+
+main > strong{
+    color: #51c901;
+}
+main > strong:hover{color: #da1deb;}
+
+.imagem{text-align: center;}
+
+.video{text-align: center;
+    align-items: center;
+    width: 800px;
+background-color: #134a2c;}
+
+main > section#parte2 {
+    height: auto;
+    width: 800px ;
+    background-color: rgb(255, 244, 244);
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px auto;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+
+}
+
+main > pre{align-items: center;}
+
+
+
+div#caixaverde
+{
+background-color: #C5EBD6;
+border: 5px;
+border-radius: 5px 5px 5px 5px;
+padding: 5px;
+box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.119);
+
+
+}
+
+section#parte2 > div#caixaverde > h1
+{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+background-color: #4e936c;
+border-radius: 5px 5px 0px 0px;
+padding: 4px;
+
+}
+
+section#parte2 > div#caixaverde > p{
+    text-indent: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section#parte2 > p > a:hover{ color: #da1deb;}
+
+section#parte2 > div#caixaverde > p > a{text-decoration: none; color: #51c901;}
+
+section#parte2 > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 1em;
+}
+
+footer{background-color: #0d840d;}
+footer > p {color: white; text-align: center;}
+footer > p > strong{color: white;}
